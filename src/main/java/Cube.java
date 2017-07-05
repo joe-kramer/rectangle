@@ -5,4 +5,12 @@ public class Cube {
     mFace = rectangle;
   }
 
+  public Rectangle getFace() {
+    return mFace;
+  }
+
+  public int volume() {
+    int length = mFace.getLength();
+    return length * length * length;
+  }
 }
