@@ -13,4 +13,9 @@ public class Cube {
     int length = mFace.getLength();
     return length * length * length;
   }
+
+  public int surfaceArea() {
+    int surfaceArea = mFace.getLength() * mFace.getWidth();
+    return surfaceArea * 6;
+  }
 }
